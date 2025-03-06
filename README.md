@@ -1,6 +1,7 @@
 # Task-CLI
 
 A simple command-line task tracker to manage your tasks efficiently.
+Project idea belongs to [roadmap.sh](https://roadmap.sh/projects/task-tracker)
 
 ## Features
 
