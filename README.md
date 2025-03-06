@@ -13,23 +13,25 @@ A simple command-line task tracker to manage your tasks efficiently.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/task-cli.git
+   git clone https://github.com/ziad1094/task-cli.git
    ```
 2. Navigate to the project directory:
    ```sh
    cd task-cli
    ```
-3. Compile the Java files (if needed):
+3. Generate .jar file (i'm using Maven as a project manager):
    ```sh
-   javac -d bin src/com/example/*.java
+   mvn clean package
    ```
+4. Generate .exe file for the .jar file using a java wrapper application like Launch4j( lighweight and easy to use).
 
 ## Usage
 
-Run the CLI tool using:
+1. Open the terminal and navigate to the folder containing task-cli.exe file.
+2. Run the application using the command: 
 
 ```sh
-java -cp bin com.example.Main <command> [arguments]
+task-cli <command> [arguments]
 ```
 
 ### Available Commands:
@@ -68,6 +70,8 @@ java -cp bin com.example.Main <command> [arguments]
   task-cli list in-progress
   task-cli list done
   ```
+
+NB: you will find task-cli.exe file ready to use, if you want to avoid the hasle of installing the application.
 
 ## Contributing
 
